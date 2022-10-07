@@ -1,0 +1,15 @@
+.shop-container{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.products-container{
+    width: 75%;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+.cart-container{
+    width: 25%;
+    border-left: 1px solid #072448;
+}
